@@ -1,0 +1,19 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+	background-color:rebeccapurple;
+	color:white;
+	font-size:2rem;
+    display:flex; 
+    /* https://d2.naver.com/helloworld/8540176 ==> flex*/
+    align-items:center;
+    justify-content:center;
+    font-family:"Poppins", sans-serif;
+    margin:0;
+    min-height:100vh;
+}
